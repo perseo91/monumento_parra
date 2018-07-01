@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background:#333;
+}
+#contenedor{
+	width:1000px;
+	height:650px;
+	border:10px solid #C30;
+	margin:0 auto;
+	background:url(../imagenes/fondo1.jpg) no-repeat;
+	position:relative;
+	overflow:hidden;
+}
+#libro{
+	width:301px;
+	height:517px;
+	background:url(../imagenes/libro.png) no-repeat;
+	position:absolute;
+	top:55px;
+	left:102px;
+}
+#origamiblanco{
+	width:216px;
+	height:193px;
+	background:url(../imagenes/origami-blanco.png) no-repeat;
+	position:absolute;
+	top:135px;
+	left:388px;
+	animation:animarOrigamiBlanco 5s infinite;
+	-moz-animation:animarOrigamiBlanco 5s infinite;
+	-o-animation:animarOrigamiBlanco 5s infinite;
+	-webkit-animation:animarOrigamiBlanco 5s infinite;
+	
+}
+#origamiazul{
+	width:164px;
+	height:154px;
+	background:url(../imagenes/origami-azul.png) no-repeat;
+	position:absolute;
+	top:307px;
+	left:401px;
+	animation:animarOrigamiAzul 10s infinite;
+	-moz-animation:animarOrigamiAzul 10s infinite;
+	-o-animation:animarOrigamiAzul 10s infinite;
+	-webkit-animation:animarOrigamiAzul 10s infinite;
+}
+#origamifucsia{
+	width:144px;
+	height:128px;
+	background:url(../imagenes/origami-fuscia.png) no-repeat;
+	position:absolute;
+	top:25px;
+	left:824px;
+	animation:animarOrigamiFucsia 7s infinite;
+	-moz-animation:animarOrigamiFucsia 7s infinite;
+	-o-animation:animarOrigamiFucsia 7s infinite;
+	-webkit-animation:animarOrigamiFucsia 7s infinite;
+     z-index:100;
+}
+
+
+/*--- Animaciones ---*/
+@keyframes animarOrigamiBlanco {
+
+from(left:159px;top:135px;)
+to(left:1010px;top:-139px;)
+
+}
+@-moz-keyframes animarOrigamiBlanco {
+
+from(left:159px;top:135px;)
+to(left:1010px;top:-139px;)
+}
+@-o-keyframes animarOrigamiBlanco {
+
+from(left:159px;top:135px;)
+to(left:1010px;top:-139px;)
+}
+@-webkit-keyframes animarOrigamiBlanco {
+
+from(left:159px;top:135px;)
+to(left:1010px;top:-139px;)
+}
+
+@keyframes animarOrigamiAzul {
+
+from(left:167px;top:307px;)
+to(left:1010px;top:130px;)
+
+}
+@-moz-keyframes animarOrigamiAzul {
+from(left:167px;top:307px;)
+to(left:1010px;top:130px;)
+
+}
+@-o-keyframes animarOrigamiAzul {
+
+from(left:167px;top:307px;)
+to(left:1010px;top:130px;)
+}
+@-webkit-keyframes animarOrigamiAzul {
+
+from(left:167px;top:307px;)
+to(left:1010px;top:130px;)
+}
+@keyframes animarOrigamiFucsia {
+0%(left:-153px;top:660px;)
+50%(left:856px;top:315px;)
+75%(left:377px;top:95px;)
+100%(left:1010px;top:128px;)
+}
+@-moz-keyframes animarOrigamiFucsia {
+0%(left:-153px;top:660px;)
+50%(left:856px;top:315px;)
+75%(left:377px;top:95px;)
+100%(left:1010px;top:128px;)
+}
+@-webkit-keyframes animarOrigamiFucsia {
+0%(left:-153px;top:660px;)
+50%(left:856px;top:315px;)
+75%(left:377px;top:95px;)
+100%(left:1010px;top:128px;)
+}
+@-o-keyframes animarOrigamiFucsia {
+0%(left:-153px;top:660px;)
+50%(left:856px;top:315px;)
+75%(left:377px;top:95px;)
+100%(left:1010px;top:128px;)
+}
